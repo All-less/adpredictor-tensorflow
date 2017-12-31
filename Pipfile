@@ -12,6 +12,8 @@ ipython = "*"
 
 [packages]
 
+scipy = "*"
+numpy = "*"
 
 
 [requires]
