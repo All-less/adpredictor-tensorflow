@@ -1,7 +1,7 @@
 # coding: utf-8
 import tensorflow as tf
 
-from model import adPredictor
+from .model import adPredictor
 
 
 def get_flags():

@@ -3,7 +3,7 @@ import numpy as np
 import tensorflow as tf
 from scipy.stats import norm
 
-import utils
+from . import utils
 
 
 def update(dists, X, y, beta, epsilon):

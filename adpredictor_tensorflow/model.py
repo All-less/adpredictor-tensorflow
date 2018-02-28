@@ -1,8 +1,8 @@
 # coding: utf-8
 import tensorflow as tf
 
-import bayesian
-import utils
+from . import bayesian
+from . import utils
 
 
 class adPredictor(object):
