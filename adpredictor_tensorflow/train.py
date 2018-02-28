@@ -25,7 +25,6 @@ def train(features, labels):
         features = [ [1, 2, 2], [2, 1, 1] ]
         labels = [ -1, 1 ]  # labels must be in { -1, 1 }
     """
-
     with tf.Session() as sess:
         model = adPredictor(get_flags(), sess)
         model.fit(features, labels)
